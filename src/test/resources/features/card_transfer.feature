@@ -1,3 +1,5 @@
+#language:en
+
 Feature: Card Transfer
 
   Scenario: Transfer money from card 2 to card 1

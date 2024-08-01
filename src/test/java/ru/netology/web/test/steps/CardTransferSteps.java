@@ -1,12 +1,12 @@
-package ru.netology.test.steps;
+package ru.netology.web.test.steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import ru.netology.domain.pages.DashboardPage;
-import ru.netology.domain.pages.LoginPage;
-import ru.netology.domain.pages.TransferPage;
-import ru.netology.domain.pages.VerificationPage;
+import ru.netology.web.domain.pages.DashboardPage;
+import ru.netology.web.domain.pages.LoginPage;
+import ru.netology.web.domain.pages.TransferPage;
+import ru.netology.web.domain.pages.VerificationPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
